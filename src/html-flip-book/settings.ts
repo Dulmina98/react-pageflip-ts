@@ -25,7 +25,7 @@ export interface IFlipSetting {
     /** Initial value to z-index */
     startZIndex?: number;
     /** If this value is true, the parent element will be equal to the size of the book */
-    autoSize: boolean;
+    autoSize?: boolean;
     /** Shadow intensity (1: max intensity, 0: hidden shadows) */
     maxShadowOpacity?: number;
 
