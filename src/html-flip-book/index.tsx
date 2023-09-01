@@ -11,9 +11,9 @@ import { PageFlip } from 'page-flip';
 import { IFlipSetting, IEventProps } from './settings';
 
 interface IProps extends IFlipSetting, IEventProps {
-    className: string;
-    style: React.CSSProperties;
-    children: React.ReactNode;
+    className?: string;
+    style?: React.CSSProperties;
+    children?: React.ReactNode;
     renderOnlyPageLengthChange?: boolean;
 }
 
